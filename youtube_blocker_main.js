@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         Youtube
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @namespace    https://github.com/Shelicus
+// @version      1.1
 // @description  Remove youtube videos
 // @author       Shelicus
 // @match        https://www.youtube.com/*
-// @exclude      https://www.youtube.com/results?*
-// @license      Apache-2.0
+// @exclude      *://*.youtube.com/channel/*
+// @exclude      *://*.youtube.com/c/*
+// @license      Apache 2.0
 // @grant        none
+// @run-at document-start
 // ==/UserScript==
 
 (function() {
@@ -20,7 +22,7 @@
     },loop);
 
     intvl2 = setInterval(function(){
-        removevideos("items");
+        removevideos("div#items.style-scope.ytd-watch-next-secondary-results-renderer");
     },loopse);
 
     intvl3 = setInterval(function(){
@@ -47,11 +49,12 @@
         }
     }
 
-    function removevideos(IDName){
+    function removevideos(Name){
         var elemento;
-        if(elemento = document.getElementById(IDName)){
+        elemento = document.querySelectorAll(Name)
+        if(elemento.length > 0){
 //             console.log(elemento);
-             elemento.remove();
+             elemento[0].remove();
         }
      }
 
