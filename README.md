@@ -1,4 +1,4 @@
-# Youtube Video Blocker
+# YouTube Video Blocker
 
 ## Beschreibung:
 Um die Ablenkung durch YouTube Videos zu verringern habe ich dieses kleine Skript entworfen, das alle Videos auf der Startseite und die Videos die sich unterhalb eines Aufgerufenen Video befinden entfernt. Das Skript kann jeder Zeit durch nur zwei Klicks unterbrochen werden.
@@ -41,11 +41,12 @@ Um die Ablenkung durch YouTube Videos zu verringern habe ich dieses kleine Skrip
 ### Quick-Start-Befehle:
 
 > Script wird direkt nach dem Speichern ausgeführt -> benötigt am Anfang manchmal einen Browser neu Start
+
 > Ab hier kein Quick-Befehle mehr!
 
 ### Weitere Befehle:
 ####  -  Script unterbrechen: 
-Über Tamplermonkey kann das Script beendet werden und nachdem die Seite nochmal neu geladen wurde wird der Ursprung hergestellt.
+Über Tamplermonkey kann das Script beendet werden und nachdem die Seite nochmal neu geladen wurde, wird der Ursprung hergestellt.
 ![gif_zwei](https://github.com/Shelicus/youtube_video_blocker/blob/main/Neuer%20Tab%20-%20Google%20Chrome%202022-02-08%2014-06-26.gif)
 
 
