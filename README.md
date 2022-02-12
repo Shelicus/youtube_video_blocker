@@ -1,7 +1,7 @@
 # Youtube Video Blocker
 
 ## Beschreibung:
-Um die Ablenkung durch Youtube Videos zu veringern habe ich dieses kleine Script entworfen, das alle Videos auf der Startseite und die Videos die sich unterhalb eines Aufgerufenen Video befinden entfernt. Das Script kann jeder Zeit durch nur zwei Klicks unterbrochen werden.
+Um die Ablenkung durch YouTube Videos zu verringern habe ich dieses kleine Skript entworfen, das alle Videos auf der Startseite und die Videos die sich unterhalb eines Aufgerufenen Video befinden entfernt. Das Skript kann jeder Zeit durch nur zwei Klicks unterbrochen werden.
 
 ![gif](https://github.com/Shelicus/youtube_video_blocker/blob/main/Google%20-%20Google%20Chrome%202022-02-08%2013-39-13.gif)
 
