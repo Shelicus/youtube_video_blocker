@@ -2,7 +2,7 @@
 
 ## Beschreibung:
 Um die Ablenkung durch YouTube Videos auf der Startseite oder als Vorschlag zu verringern, habe ich dieses kleine Skript entworfen. Dabei werden alle Videos auf der Startseite und die Videos die sich unterhalb eines aufgerufenen Video befinden entfernt. Das Skript kann jederzeit durch nur zwei Klicks unterbrochen werden.
-Dieses Skript wird nicht weiter gewartet und befindet isch in read-only. 
+Dieses Skript wird nicht weiter gewartet und befindet sich in read-only. 
 
 ![gif](https://github.com/Shelicus/youtube_video_blocker/blob/main/Google%20-%20Google%20Chrome%202022-02-08%2013-39-13.gif)
 
